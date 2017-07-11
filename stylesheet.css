@@ -1,12 +1,19 @@
+body{
+  background-color: gray;
+}
+
 .name{
   font-size: 50px;
-  color: #9ce0a3;
+  color: yellow;
   background-color: black;
   border: 0px solid white;
   padding: 0px;
+  text-align: center;
 }
 img{
   width: 100;
+  height: 100;
+  display: flex;
 }
 
 .opening{
@@ -14,15 +21,18 @@ img{
   text-align: center;
 }
 
+a{
+  color: #fed03d;
+}
 
 p{
-  color: blue;
+  color: #fed03d;
   margin-top: 0px;
 }
 
 
 h2{
-  color: orange;
+  color: #0000ff;
   margin-bottom: 0px;
 }
 
@@ -30,10 +40,10 @@ div{
   border: 3px solid red;
 }
 
-ol{
-  color: blue;
+.movies{
+  color: #fef65b;
   margin-bottom: 0px;
-  border: 5px dashed red;
+  border: 5px dashed #0000ff;
 }
 
 h1{
