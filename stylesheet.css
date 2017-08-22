@@ -1,20 +1,149 @@
+/* INDEX */
+#index_body {
+  background-image: url('inception_keyart.jpg');
+}
+#index_opening{
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin-left: 1000px;
+  margin: 33%;
+  margin-right: 50%;
+  border: 1px, solid, yellow;
+  font-size: 200%;
+  margin-top: 25%;
+}
+
+.index_text{
+  border: 1px, solid, black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 250%;
+  margin-top: 0%;
+}
+/* INDEX */
+/*ABOUT ME*/
 body{
   background-color: gray;
 }
 
-.name{
+#header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+#myphoto{
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  justify-content: space-around;
+}
+
+#summary{
+  display: flex;
+  flex-direction: column;
+}
+#summary_top{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+}
+#summary_bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#summary_top_text{
+  display: flex;
+  flex-direction: column;
+  /*border: 1px, solid, black;*/
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  flex-grow: 1;
+}
+
+#torrance_beach_photo{
+  width: 300px;
+  height: 200px;
+  flex-grow: 1;
+}
+
+#torrance_seal_photo {
+  width: 300px;
+  height: 200px;
+  flex-grow: 1;
+}
+#dodgers_photo{
+  width: 300px;
+  height: 300px;
+  flex-grow: 1;
+  /*margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;*/
+}
+
+#lakers_photo{
+  width: 300px;
+  height: 300px;
+  flex-grow: 1;
+  /*margin-right: 0px;
+  padding-right: 0px;*/
+}
+#rams_photo{
+  width: 300px;
+  height: 300px;
+  flex-grow: 1;
+  /*margin-left: 0px;
+  padding-left: 0px;*/
+}
+
+/*#personal_information{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  align-items: center;
+}*/
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/*#batmanphoto{
+  height: 25%;
+  width: 50%;
+}*/
+
+#name{
   font-size: 50px;
   color: yellow;
   background-color: black;
   border: 0px solid white;
   padding: 0px;
   text-align: center;
+  align-items: center;
 }
-img{
-  width: 100;
-  height: 100;
-  display: flex;
+
+#myphoto{
+  align-items: center;
 }
+
+/*#inceptionphoto{
+  width: 100px;
+  height: 100px;
+}*/
 
 .opening{
   border: 5px solid black;
@@ -36,16 +165,192 @@ h2{
   margin-bottom: 0px;
 }
 
-div{
+#footer{
   border: 3px solid red;
+  height: 100px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 
-.movies{
-  color: #fef65b;
-  margin-bottom: 0px;
-  border: 5px dashed #0000ff;
+.footertext{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
 }
+
+#footer, .footer_text, h2{
+  text-decoration: underline;
+}
+
+#favoriteMovies_text{
+  align-items: center;
+}
+#inception{
+  display: flex;
+  width: 205px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+#stepbrothers{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 205px;
+}
+#darkknight{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 205px;
+}
+#otherguys{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 205px;
+}
+#toystory3{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 205px;
+}
+#favoriteMovies {
+  display: flex;
+  flex-direction: row;
+}
+
+#inception_poster{
+  flex-grow: 1;
+  width: 178px;
+}
+#stepbrothers_poster{
+  width: 178px;
+  /*height: 80%;*/
+}
+#darkknight_poster{
+  width: 178px;
+}
+#otherguys_poster{
+  width: 178px;
+}
+#toystory3_poster{
+  width: 178px;
+}
+
+
+
+#theoffice_poster{
+  flex-grow: 1;
+  width: 178px;
+  height: auto;
+
+}
+#breakingbad_poster{
+  flex-grow: 1;
+  width: 178px;
+  height: auto;
+}
+#bigbrother_poster{
+  flex-grow: 1;
+  width: 178px;
+  height: auto;
+
+}
+#himym_poster{
+  flex-grow: 1;
+  width: 178px;
+  height: auto;
+
+}
+#parks-rec_poster{
+  flex-grow: 1;
+  width: 178px;
+  height: auto;
+
+}
+
+#favoriteTV{
+  display: flex;
+  flex-direction: row;
+}
+
+#theoffice{
+  display: flex;
+  width: 20%;
+  flex-grow: 1;
+  flex-direction: column;
+  height: 100%;
+}
+#breakingbad{
+  display: flex;
+  width: 20%;
+  flex-grow: 1;
+  flex-direction: column;
+  height: 100%;
+}
+#bigbrother{
+  display: flex;
+  width: 20%;
+  flex-grow: 1;
+  flex-direction: column;
+  height: 100%;
+}
+#himym{
+  display: flex;
+  width: 20%;
+  flex-grow: 1;
+  flex-direction: column;
+  height: 100%;
+}
+#parks-rec{
+  display: flex;
+  width: 20%;
+  flex-grow: 1;
+  flex-direction: column;
+  height: 100%;
+}
+
+#theoffice_text{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#michaelscott{
+  width: 50%;
+  height: 50%;
+}
+
 
 h1{
   margin-bottom: 10px;
 }
+
+#name_box {
+  width: 100%;
+}
+/*ABOUT ME*/
+
+/*BLOG POSTS*/
+#calendar{
+  display: flex;
+  flex-direction: column;
+}
+.blogposts{
+  border: 2px solid black;
+  width: 20%;
+  height: 50%;
+}
+
+
+
+
+
+
+/*BLOG POSTS*/

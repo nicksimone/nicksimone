@@ -3,41 +3,128 @@
   <head>
     <link rel="stylesheet" href="stylesheet.css">
     <title>Nicolas Simone's Profile</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src = "my_script.js"> </script>
 </head>
 
 <body>
+<div id="header">
+  <h1 id="name">Nicolas Simone</h1>
+  <img id="myphoto" src="nickphoto.jpg"></img>
+</div>
+<div id="summary">
+  <div id="summary_top">
+    <div id="summary_top_text">
+      <h2>Summary</h2>
+      <p>I live in Torrance, Calfornia. I like to watch and play sports. I am a future Computer Scientist.
+      I am about to start my freshman year at UCLA. I have blue eyes and blonde hair. I am supposed to
+      grow to be 6'4". I love all things UCLA. I am a huge fan of the Los Angeles Lakers, Los Angeles Dodgers,
+      Los Angeles Kings, and Los Angeles Rams.
+      </p>
+    </div>
+    <img id="torrance_beach_photo" src="torrancebeach.jpg"/>
+    <img id="torrance_seal_photo" src="torranceseal.gif"/>
+  </div>
+  <div id="summary_bottom">
+    <img id="lakers_photo" src="lakersphoto.jpg"/>
+    <img id="dodgers_photo" src="dodgersphoto.jpg"/>
+    <img id="rams_photo" src="ramsphoto.jpg"/>
+  </div>
+</div>
+<div id="personal_information">
+  <h2>Hometown</h2>
+  <a href="http://www.torranceca.gov/">Torrance, California</a>
 
-    <h1 class="name">Nicolas Simone</h1>
-<img src="nickphoto.jpg">
+  <h2>High School</h2>
+  <a href="http://www.bmhs-la.org/">Bishop Montgomery High School</a>
 
-<h2>Summary</h2>
-<p>I live in Torrance, Calfornia. I like to watch and play sports.</p>
+  <h2>University</h2>
+  <a href="http://www.ucla.edu/">UCLA</a>
+</div>
 
-<h2>Hometown</h2>
-<a href="www.torranceca.gov/">Torrance, California</a>
+<div id="favoriteMovies_text"><h2>My Favorite Movies</h2></div>
 
-<h2>High School</h2>
-<a href="www.bmhs-la.org">Bishop Montgomery High School</a>
-
-<h2>University</h2>
-<a href="www.ucla.edu/">UCLA</a>
-
-<h2>Other Profiles</h2>
-<ul>
-  <li><a href="https://plus.google.com/">Google Plus</a></li>
-  <li><a href="https://www.instagram.com/">Instagram</a></li>
-</ul>
-
-<h2>My Favorite Movies</h2>
-
-<ol class="movies">
-  <li>The Dark Knight Trilogy <img src="darkknight.jpg">
+<div id="favoriteMovies">
+  <div id="inception">
+    <img id="inception_poster" src="inception_keyart.jpg"/>
+    <p>2010<br>Director: Christopher Nolan<br>
+      Starring: Leonardo Dicaprio, Joseph Gordon-Levitt, Ellen Page<br>
+    Rating: PG-13</p>
+  </div>
+  <div id="stepbrothers">
+    <p>2008<br>Director: Adam McKay<br>
+      Starring: Will Ferrell, John C. Reilly<br>
+    Rating: R</p>
+    <img id="stepbrothers_poster" src="step-brothers.jpg"/>
+  </div>
+  <div id="darkknight">
+    <img id="darkknight_poster" src="TDK-trilogy-poster.jpg"/>
+    <p>2005, 2008, 2012<br>Director: Christopher Nolan<br>
+      Starring: Christian Bale, Michael Caine, Morgan Freeman<br>
+    Rating: PG-13</p>
+  </div>
+  <div id="otherguys">
+    <p>2010<br>Director: Adam McKay<br>
+      Starring: Will Ferrell, Mark Wahlberg<br>
+    Rating: PG-13</p>
+    <img id="otherguys_poster" src="other_guys.jpg"/>
+  </div>
+  <div id="toystory3">
+    <img id="toystory3_poster" src="toy_story_3.jpg"/>
+    <p>2010<br>Director: Lee Unkrich<br>
+      Starring: Tom Hanks, Tim Allen<br>
+    Rating: G</p>
+  </div>
+</div>
+<!--<ol class="movies">
+  <li>The Dark Knight Trilogy
   </li>
-  <li>Inception <img src="inception_keyart.jpg">
+  <li>Inception <img id="inceptionphoto" src="inception_keyart.jpg"></img>
   </li>
-</ol>
+</ol>-->
+<div id="favoriteTV">
+  <div id="theoffice">
+    <div id="theoffice_text">
+      <img id="michaelscott" src="michaelscott.png"/>
+      <p>My Favorite Character: Michael Scott</p>
+    </div>
+    <img id="theoffice_poster" src="theoffice.jpg"/>
+  </div>
+  <div id="breakingbad">
+    <img id="breakingbad_poster" src="breakingbad.jpg"/>
+    <img src="hank-breakingbad.jpg"/>
+  </div>
+  <div id="bigbrother">
+    <img id="bigbrother_poster" src="bigbrother.jpg"/>
+  </div>
+  <div id="himym">
+    <img id="himym_poster" src="himym.jpg"/>
+    <img src="barney-himym.jpg"/>
+  </div>
+  <div id="parks-rec">
+    <img src="andy-parks.jpg"/>
+    <img id="parks-rec_poster" src="parks-rec.jpg"/>
+  </div>
+</div>
 
-
-
+<div id ="footer">
+<div class="footer_text">
+  <h2>Other Profiles</h2>
+  <ul>
+    <li><a href="https://plus.google.com/">Google Plus</a></li>
+    <li><a href="https://twitter.com/nickksimone">Twitter</a></li>
+    <li><a href="https://www.instagram.com/nickksimone/">Instagram</a></li>
+  </ul>
+</div>
+<div class="footer_text">
+<h2>Contacts</h2>
+<p class="footer_text">nicksimone2468@yahoo.com <br>
+  nicksimone2468@gmail.com </p>
+</div>
+</div>
+<h2>Comments or Questions?</h2>
+<textarea id="name_box"></textarea>
+<button id = "button_ok">Submit</button>
+<div id = "text_display"></div>
   </body>
 </html>
