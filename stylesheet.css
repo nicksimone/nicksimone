@@ -278,6 +278,7 @@ h2{
 #favoriteTV{
   display: flex;
   flex-direction: row;
+  height: 409px;
 }
 
 #theoffice{
@@ -299,7 +300,8 @@ h2{
   width: 20%;
   flex-grow: 1;
   flex-direction: column;
-  height: 100%;
+  height: 70%;
+  margin: auto;
 }
 #himym{
   display: flex;
@@ -326,11 +328,45 @@ h2{
   width: 50%;
   height: 50%;
 }
-
-
-h1{
-  margin-bottom: 10px;
+#breakingbad_text{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
+#hankposter{
+  width: 50%;
+  height: 35%;
+}
+#himym_text{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+#barney_text{
+  width: 84px;
+}
+#barneyposter{
+  width: 50%;
+  height: 36%;
+  margin-left: 0px;
+}
+#parks-rec_text{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+#andy_text{
+  width: 84px;
+}
+
+#andyposter{
+  width: 50%;
+  height: 30%;
+}
+
+/*h1{
+  margin-bottom: 10px;
+}*/
 
 #name_box {
   width: 100%;
